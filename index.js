@@ -1,3 +1,5 @@
+function roll{
+
 var randomNumber1=Math.random()
 randomNumber1=(randomNumber1*6)+1
 randomNumber1=Math.floor(randomNumber1)
@@ -21,4 +23,5 @@ else if(randomNumber2>randomNumber1)
 else
 {
     document.querySelector(".container h1").textContent="Draw!"
+}
 }
